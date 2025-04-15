@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f0f8ff;
+  }
+  
+  header {
+    background: #2a7aa0;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background: #1b5f7a;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 1;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    padding: 60px 20px;
+    text-align: center;
+    background: #e0f7ff;
+  }
+  
+  .btn {
+    display: inline-block;
+    background: #2a7aa0;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  .content, .booking, .confirmation {
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #2a7aa0;
+    color: white;
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #f0f0f0;
+    color: #777;
+    margin-top: 40px;
+  }
