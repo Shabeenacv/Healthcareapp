@@ -1,0 +1,1 @@
+Testing Git workflow from VS Code
